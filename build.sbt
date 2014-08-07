@@ -6,11 +6,11 @@ assemblyOption in assembly ~= { _.copy(includeScala = false) }
 
 name := "AutoCopy"
 
-version := "1.0"
+version := "1.1"
 
 jarName in assembly := s"${name.value.replace(" ", "-").toLowerCase}-${version.value}.jar"
 
-scalaVersion := "2.11.0"
+scalaVersion := "2.11.2"
 
 mainClass := Some("Main")
 
